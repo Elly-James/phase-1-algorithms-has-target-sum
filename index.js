@@ -25,6 +25,11 @@ function hasTargetSum(array, target) {
 
 /*
   Add written explanation of your solution here
+the function takes 2 parameters, an array and a target element
+the first for iterates through the array looking for the first element
+the second for looks for the second element
+if the sum of the 2 ellements is equal to the target element then the function returns true
+else false
 */
 
 // You can run `node index.js` to view these console logs
