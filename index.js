@@ -1,5 +1,15 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
+  for (let i =0; i<array.length; i++){
+    for (let j=i+1; j<array.length; j++){
+      if(array[i] + array[j]=== target){
+        return true
+      }
+    }
+  }
+  return false;
+ 
+  
 }
 
 /* 
@@ -8,6 +18,9 @@ function hasTargetSum(array, target) {
 
 /* 
   Add your pseudocode here
+  * The function takes 2 parameters an aaray and a target element
+  * The function should iterate trhough the array to find two elements which on addition gives the target element
+  * returns true if the exists
 */
 
 /*
